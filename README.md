@@ -8,29 +8,36 @@ This project is about creating the Model part of the MVC structured Ruby on Rail
 - Rails 6.0.3.2
 - VS Code
 
-## Getting Started 
-
-To get a local copy follow these simple example steps.
-
- - Click on **Clone or download** button of this repository and copy the URL(or you can just download .zip).
- - Open your command prompt and run this command: git clone COPIED-URL
-
 
 ## Prerequisites
 In order to make the program work, you need to have ruby interpreter installed in your system. You can get the latest version of ruby from [official website](https://www.ruby-lang.org/en/downloads/).
 
 
-## Usage
-1. Open your command prompt and navigate to 'bin' folder of tic-tac-toe(use 'cd' command)
-2. Type ruby main.rb
-3. Enjoy game!
+## Getting Started 
+
+1. clone the project
+
+```bash
+# Clone this repository
+$ git clone https://github.com/8Bts/Micro-Reddit.git
+
+# Go into the repository
+$ cd Micro-Reddit
+
+# make sure you have ruby 2.7.1
+# install gems from Gemfile using bundle
+$ bundle install
+
+# migrate table to database
+
+$ rails db:migrate
+
+# use rails console to test the app
+
+$ rails console
+```
 
 
-
-
-## Live Demo
-
-[![Run on Repl.it](https://repl.it/badge/github/8Bts/tic-tac-toe)](https://repl.it/github/8Bts/tic-tac-toe)
 
 ## Authors
 
@@ -41,18 +48,16 @@ In order to make the program work, you need to have ruby interpreter installed i
 - Linkedin: [linkedin](https://www.linkedin.com/in/mcmizze-price-238a70135/)
 - Email: mcmizze@yahoo.com
 
-**Mworekwa Ezekiel**
-
-- Github: [@vanheaven-ui](https://github.com/vanheaven-ui)
-- Twitter: [@MworekwaE](https://twitter.com/MworekwE)
-- Linkedin: [@linkedin](https://www.linkedin.com/in/vanheaven/)
-- Email: [ezekiel](mailto:vanheaven6@gmail.com)
+👤 **Rida Elbahtouri**
+- [Github](https://github.com/rida-elbahtouri)
+- [Twitter](https://twitter.com/RElbahtouri)
+- [Linkedin](https://www.linkedin.com/in/rida-elbahtouri-36a8a7185/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/8Bts/tic-tac-toe/issues" target="_blank">issues page</a>.
+Feel free to check the <a href="https://github.com/8Bts/Micro-Reddit/issues" target="_blank">issues page</a>.
 
 ## Show your support
 
@@ -61,6 +66,5 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
  
 - <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
-- <a href="https://ruby-doc.org/core-2.6.1/" target="_blank">Ruby Docs</a>
-- <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
+
 
