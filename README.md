@@ -8,7 +8,7 @@ This project is about creating the Model part of the MVC structured Ruby on Rail
 - Rails 6.0.3.2
 - VS Code
 
-![screenshot](https://github.com/8Bts/Micro-Reddit/tree/reddit-web/app/assets/images/screeshot.png)
+![screenshot](https://github.com/8Bts/Micro-Reddit/blob/reddit-web/app/assets/images/screenshot.png)
 
 
 ## Prerequisites
