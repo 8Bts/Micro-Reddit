@@ -8,6 +8,8 @@ This project is about creating the Model part of the MVC structured Ruby on Rail
 - Rails 6.0.3.2
 - VS Code
 
+![screenshot](https://github.com/8Bts/Micro-Reddit/tree/reddit-web/app/assets/images/screeshot.png)
+
 
 ## Prerequisites
 In order to make the program work, you need to have ruby interpreter installed in your system. You can get the latest version of ruby from [official website](https://www.ruby-lang.org/en/downloads/).
@@ -36,8 +38,31 @@ $ rails db:migrate
 
 $ rails console
 ```
+## Usage
 
+_First, you need to create model object_
 
+- `user = User.new`
+
+_Then, you need to set the attributes of the object created_
+
+- `user.username = 'Paul'`
+- `user.email = 'paul@gmail.com'`
+- `user.age = 22`
+
+_Before you save your object to the actual database, check its validity_
+
+- `user.valid?` (Should return `true` if it is valid)
+
+_Now you can save your object to database_
+
+- `user.save` (This statement will return `false` without saving your object if you have any invalid value)
+
+_Check your records by typing this statement_
+
+- `User.all`
+
+You can follow the same steps for the other model objects included in `app/models/`, to test them.
 
 ## Authors
 
